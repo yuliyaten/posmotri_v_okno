@@ -37,12 +37,13 @@ ol {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .content {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 30px;
   margin: 133px 30px;
   width: 1140px;

@@ -185,25 +185,29 @@ fieldset {
   border-bottom: 1px solid #FFF;
   width: fit-content;
   width: 225px;
-  appearance: none;
 }
 
 .search-form__label {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: fit-content;
   gap: 5px;
   position: relative;
 }
 
-.search-form__label:hover .search-form__label-text {
-  text-decoration: underline;
-  cursor: pointer;
+.search-form__textfield:focus {
+  outline: none;
 }
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #FFF;
-  outline-offset: 2px;
+  outline-offset: 1px;
+}
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__checkbox-list {
@@ -265,6 +269,7 @@ button:focus {
 
 button:focus-visible {
   outline: 1px solid #FFF; 
+  outline-offset: 2px;
 }
 
 button:active {

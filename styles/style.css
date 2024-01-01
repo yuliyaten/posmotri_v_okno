@@ -269,7 +269,7 @@ button:focus {
 
 button:focus-visible {
   outline: 1px solid #FFF; 
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 button:active {
